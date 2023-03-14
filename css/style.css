@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #e25690;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.header h2 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+div.pag2 {
+    border: solid #e25690 1px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+h1,
+h2 {
+    color: #e25690;
+    font-weight: 900;
+}
+
+h3 {
+    color: #e25690;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+table {
+    width: 1000px;
+    border: 1px solid #e25690;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+th {
+    color: #e25690;
+    font-weight: 900;
+}
+
+caption {
+    font-size: 20px;
+    color: #e25690;
+    font-weight: 900;
+}
+
+td {
+    border: solid 1px #e25690;
+    padding: 10px;
+    text-align: center;
+}
+
+.container-forms {
+    border: solid #e25690 1px;
+    border-radius: 20px;    
+    padding: 10px;
+    width: 500px;
+    background-color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+}
+.welcome{
+    font-weight: 900;
+}
+.img{
+    float: right;
+}
+.botao{
+    background-color: #e25690;
+    max-height: 50px;
+    width: 200px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+.botao a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+input {
+    border-radius: 8px;
+    border-color: #e25690;
+
+}
+input.textbox {width: 95%;}
+
+body.forms{background-image:url(../imagens/tamagochi.jpg) ; background-position:650px 850px;}
